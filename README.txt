@@ -20,7 +20,7 @@ Criar:
 
 Configurar:
 
-1- Baixe a [GLUT](http://www.aerstudio.com.br/downloads/GLUT/GLUT.zip) e descompacte o arquivo dentro da pasta do seu projeto, de preferência no mesmo local onde ficará o arquivo executável
+1- Baixe a GLUT (http://www.aerstudio.com.br/downloads/GLUT/GLUT.zip) e descompacte o arquivo dentro da pasta do seu projeto, de preferência no mesmo local onde ficará o arquivo executável
 
 2- Com o projeto aberto no Visual Studio clique em
 	Project > Properties > C/C++ > Additional Include Directories, e inclua o endereço da pasta GLUT (ex: "/GLUT")
