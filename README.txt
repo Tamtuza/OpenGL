@@ -1,12 +1,12 @@
-Como executar os projetos com OPENGL:
+# Como executar os projetos com OPENGL:
 
-1- FaÁa o download do projeto que quer utilizar
+1- Fa√ßa o download do projeto que quer utilizar
 
-2- Dentro da pasta do projeto, procure a pasta "Debug" e execute o arquivo de extens„o ".exe" (ex: "HelloWorldGL.exe")
+2- Dentro da pasta do projeto, procure a pasta "Debug" e execute o arquivo de extens√£o ".exe" (ex: "HelloWorldGL.exe")
 
-Caso queira fazer modificaÁıes, abra o arquivo de extens„o .sln para visualiz·-lo no Visual Studio e siga os passos 1, 2 e 3 na seÁ„o de configuraÁ„o do OPENGL logo abaixo
+Caso queira fazer modifica√ß√µes, abra o arquivo de extens√£o .sln para visualiz√°-lo no Visual Studio e siga os passos 1, 2 e 3 na se√ß√£o de configura√ß√£o do OPENGL logo abaixo
 
-Como criar e/ou configurar seu projeto OPENGL no Visual Studio:
+# Como criar e/ou configurar seu projeto OPENGL no Visual Studio:
 
 Criar:
 
@@ -14,21 +14,21 @@ Criar:
 	File > New > Project > Visual C++ > Empty Project
 	Defina um nome para o projeto (ex: "HelloWorld") e clique em 'OK'
 
-2- No 'Solution Explorer' (normalmente na lateral direita), clique com o bot„o direito sobre a opÁ„o 'Source Files', e em seguida selecione Add > New Item
+2- No 'Solution Explorer' (normalmente na lateral direita), clique com o bot√£o direito sobre a op√ß√£o 'Source Files', e em seguida selecione Add > New Item
 
 3- Na janela que abrir, selecione 'C++ file', nomeie o arquivo (ex: "main.cpp") e clique em 'Add'
 
 Configurar:
 
-1- Baixe a [GLUT] http://www.aerstudio.com.br/downloads/GLUT/GLUT.zip) e descompacte o arquivo dentro da pasta do seu projeto, de preferÍncia no mesmo local onde ficar· o arquivo execut·vel
+1- Baixe a [GLUT](http://www.aerstudio.com.br/downloads/GLUT/GLUT.zip) e descompacte o arquivo dentro da pasta do seu projeto, de prefer√™ncia no mesmo local onde ficar√° o arquivo execut√°vel
 
 2- Com o projeto aberto no Visual Studio clique em
-	Project > Properties > C/C++ > Additional Include Directories, e inclua o endereÁo da pasta GLUT (ex: "/GLUT")
+	Project > Properties > C/C++ > Additional Include Directories, e inclua o endere√ßo da pasta GLUT (ex: "/GLUT")
 
-3- Ainda em Project > Properties v· na opÁ„o Linker > Additional Library Directories, e inclua o endereÁo da pasta lib que se encontra dentro da pasta GLUT (ex: "/GLUT/lib")
+3- Ainda em Project > Properties v√° na op√ß√£o Linker > Additional Library Directories, e inclua o endere√ßo da pasta lib que se encontra dentro da pasta GLUT (ex: "/GLUT/lib")
 
 4- No Windows Explorer, copie para a pasta Debug ou Release do seu projeto o arquivo "glut32.dll" que se encontra na pasta GLUT, ou copie a dll na pasta "System32" ou "SysWOW64"
 
-5- Inclua a GLUT em seu cÛdigo "#include <GL/glut.h>"
+5- Inclua a GLUT em seu c√≥digo "#include <GL/glut.h>"
 
-ps.: ao transportar o execut·vel do projeto, lembre-se de sempre transportar a "glut32.dll" junto, caso contr·rio o mesmo n„o ir· funcionar
+ps.: ao transportar o execut√°vel do projeto, lembre-se de sempre transportar a "glut32.dll" junto, caso contr√°rio o mesmo n√£o ir√° funcionar
