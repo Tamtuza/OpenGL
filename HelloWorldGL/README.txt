@@ -1,0 +1,1 @@
+Projeto básico desenvolvido em OpenGl onde um quadrado branco é mostrado na tela
