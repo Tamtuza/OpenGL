@@ -10,8 +10,10 @@ Caso queira fazer modificações, abra o arquivo de extensão .sln para visualiz
 
 __Criar:__
 
-1. Abra o Visual Studio e crie um novo projeto vazio 
+1. Abra o Visual Studio e crie um novo projeto vazio
+
 	File > New > Project > Visual C++ > Empty Project
+
 	Defina um nome para o projeto (ex: "HelloWorld") e clique em 'OK'
 
 2. No 'Solution Explorer' (normalmente na lateral direita), clique com o botão direito sobre a opção 'Source Files', e em seguida selecione Add > New Item
@@ -23,6 +25,7 @@ __Configurar__:
 1. Baixe a [GLUT](http://www.aerstudio.com.br/downloads/GLUT/GLUT.zip) e descompacte o arquivo dentro da pasta do seu projeto, de preferência no mesmo local onde ficará o arquivo executável
 
 2. Com o projeto aberto no Visual Studio clique em
+
 	Project > Properties > C/C++ > Additional Include Directories, e inclua o endereço da pasta GLUT (ex: "/GLUT")
 
 3. Ainda em Project > Properties vá na opção Linker > Additional Library Directories, e inclua o endereço da pasta lib que se encontra dentro da pasta GLUT (ex: "/GLUT/lib")
